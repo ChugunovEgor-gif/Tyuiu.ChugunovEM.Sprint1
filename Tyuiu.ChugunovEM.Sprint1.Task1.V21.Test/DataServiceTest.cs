@@ -12,10 +12,10 @@ namespace Tyuiu.ChugunovEM.Sprint1.Task1.V21.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 1.0;
+            double x = 5.0;
             double y = 2.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(-1, res);
+            Assert.AreEqual(2, res);
         }
     }
 }
