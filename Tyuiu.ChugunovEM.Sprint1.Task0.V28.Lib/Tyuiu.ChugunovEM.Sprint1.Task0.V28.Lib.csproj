@@ -42,6 +42,9 @@
     <Reference Include="tyuiu.cources.programming.interfaces">
       <HintPath>..\..\..\..\Desktop\tyuiu.cources.programming.interfaces.dll</HintPath>
     </Reference>
+    <Reference Include="tyuiu.cources.programming.interfaces %281%29">
+      <HintPath>..\..\..\..\Desktop\tyuiu.cources.programming.interfaces (1).dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataService.cs" />
